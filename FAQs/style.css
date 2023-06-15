@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@1,700&family=Dancing+Script:wght@500&family=Poppins:wght@100&family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:25vw;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Caladea', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding:3rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    color: rgb(243, 233, 233);
+
+}
+.que{
+    min-width: 20vw;
+    display: flex;
+
+    justify-content: space-between;
+}
+.box{
+    margin:0.7rem;
+    padding: 0.5rem;
+    background-color: rgb(235, 135, 135);
+    width:21rem;
+    border-radius: 2rem;
+
+}
+.question{
+    font-family: 'Caladea', serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2rem;
+    color:white;
+
+
+}
+.answer{
+    display: none;
+}
+.btn{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    padding-top: 0.2rem;
+    background-color: blue;
+    color:white;
+    border:none;
+    border-radius: 2rem;
+
+}
+.btn:hover{
+    
+    cursor: pointer;
+    
+    
+}
+.container{
+    background-color:black;
+}
+.change{
+    display: block;
+    border-top: 2px solid white;
+}
+.rotate{
+    transform: rotate(180deg);
+}
+img{
+    width:80%;
+    height:80%;
+    border-radius: 2rem;
+    transition: all 1s ease-in-out;
+}
+.answer{
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(201, 243, 243);
+}
+img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.a{
+    
+    text-align: center;
+}
